@@ -16,6 +16,19 @@ header {
   letter-spacing: 2px;
 }
 
+.header-doble-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 275px;
+    width: auto;
+}
+
 nav ul {
   list-style: none;
   padding: 0;

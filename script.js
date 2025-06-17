@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    alert("Gracias por contactarte con nosotros, en 48 hs hábiles recibiras respuesta :)");
+    alert("Gracias por contactarte con nosotros, en 48 hs hábiles recibiras nuestra respuesta :)");
 
     form.reset(); 
     otroDiv.style.display = "none"; // Oculta el textarea que estaba visible
