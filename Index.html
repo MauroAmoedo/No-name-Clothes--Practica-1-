@@ -4,9 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>No Name Clothes</title>
-    <link rel="stylesheet" href="Estilo.css"
+    <link rel="stylesheet" href="Estilo.css">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+  <header>
+    <h1>No Name Clothes</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Bienvenido!</h2>
+    <p>Somos No Name Clothes - Tu marca de ropa de anime alternativa favorita</p>
+  </section>
+
+  <section id="nosotros">
+    <h2>¿Quienes somos?</h2>
+    <p>Conocé al equipo detras de No Name Clothes</p>
+  </section>
+
+  <section id="clientes">
+    <h2>Clientes</h2>
+    <p>¿En que tiendas podes encontrar nuestros productos? Te mostramos algunos de nuestros clientes!</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto">
+      <label for="nombre">Tu nombre</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="email">Tu mail</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="como">¿Cómo conociste nuestro emprendimiento?</label>
+      <select id="como" name="como" required>
+        <option value="">-- Seleccioná una opción --</option>
+        <option value="redes">Redes</option>
+        <option value="comentarios">Comentarios</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <div id="otro-especificar" style="display: none;">
+        <label for="especifique">Especifique:</label>
+        <textarea id="especifique" name="especifique"></textarea>
+      </div>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - No Name Clothes - Todos los derechos reservados</p>
+  </footer>
 </body>
 </html>
